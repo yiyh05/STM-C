@@ -17,6 +17,8 @@ STM-C is a remote sensing driven permafrost carbon modelling framework, which ma
  4. References
  
    Yi, Y., Kimball, J. S., Chen, R. H., Moghaddam, M., Reichle, R. H., Mishra, U., Zona, D., and Oechel, W. C.: Characterizing permafrost active layer dynamics and sensitivity to landscape spatial heterogeneity in Alaska, The Cryosphere, 12, 145–161, https://doi.org/10.5194/tc-12-145-2018, 2018. 
+   
    Yi, Y., Kimball, J. S., Watts, J. D., Natali, S. M., Zona, D., Liu, J., Ueyama, M., Kobayashi, H., Oechel, W., and Miller, C. E.: Investigating the sensitivity of soil respiration to recent snow cover changes in Alaska using a satellite-based permafrost carbon model, Biogeosciences Discuss., https://doi.org/10.5194/bg-2020-182, in review, 2020. 
+   
    Rawlins, M. A., Nicolsky, D. J., McDonald, K. C. and Romanovsky, V. E.: Simulating soil freeze/thaw dynamics with an improved pan-Arctic water balance model: SOIL FREEZE/THAW MODELING, J. Adv. Model. Earth Syst., 5(4), 659–675, doi:10.1002/jame.20045, 2013.
  
