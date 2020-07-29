@@ -1,0 +1,37 @@
+/PWBM-STM-C/ancil/ak_nlcd_albers_domain_LST.dat       ** path and name of domain information file
+/PWBM-STM-C/ancil/ak_LST_mean.albers.dat              ** path and name of annual mean land surface temperature, used for the initial soil temperature
+/PWBM-STM-C/ancil/ak.mineralsoil_dzpr.dat             ** path and name of mineral soil properties file
+/PWBM-STM-C/ancil/ak_soiltexture_LST_v1.dat           ** path and name of soil texture data 
+/PWBM-STM-C/ancil/soc_1m.peatfrac.baseline.dat        ** path and name of peat fraction file
+ 
+MOD11A2.DAILY_AVG.                             ** MODIS LST dataset name
+MERRA2_SNODP.Albers1km.                        ** snowdepth dataset name
+MERRA2_snowdensity.Albers1km.                  ** snow density dataset name
+SMAP_L4_SM_gph_sm_surface.perct                ** surface or rootzone sm dataset name
+SMAP_L4_SM_gph_sm_rootzone.perct               ** surface or rootzone sm dataset name
+MOD13A2.NDVI-8day.                             ** MODIS 8-day NDVI dataset name
+MOD11A2.LST_Night_1km.                         ** night-time MODIS LST (LST_min, degC)
+MERRA2.SWGDN                                   ** downward solar radiation (W/m2) 
+
+/PWBM-STM-C/Data/MODIS/                  ** MODIS LST data path; 
+/PWBM-STM-C/Data/Snow/                   ** MERRA snowdepth path
+/PWBM-STM-C/Data/SM/                     ** SM data path 
+/PWBM-STM-C/Data/NDVI/                   ** NDVI data path
+/PWBM-STM-C/Data/SWGDN/                  ** SWGDN data path
+/STM-C-1km/code/Outputs/                 ** output filepath
+
+0.05          ** thermal conductivity for dry peat soil (unfrozen)
+0.55          ** thermal conductivity for saturated peat soil (unfrozen)
+0.55          ** thermal conductivity for frozen peat (dry)
+1.8           ** thermal conductivity for frozen peat (saturated)
+2.5           ** HEAT CAPACITY OF PEAT LAYER (ZERO POROSITY) (in 10^6 )
+15            ** the layer where the bedrock starts 
+50            ** NUMBER OF SPINUP CYCLES TO PERFORM. 
+
+1             ** the starting pixel
+40000         ** the ending pixel
+
+2001          ** FIRST YEAR OF SIMULATION. FIRST YEAR MUST MATCH SPINUP FILE'S YEAR
+200           ** LAST YEAR OF SIMULATION  
+1             ** OUTPUT files at each time step? (0=NO 1=YES)
+1             ** OUTPUT ANNUAL statis? (0=NO, 1=YES)
