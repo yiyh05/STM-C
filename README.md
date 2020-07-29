@@ -1,9 +1,7 @@
 # STM-C
-A remote sensing permafrost carbon model
+A remote sensing driven permafrost carbon model
 
-STM-C is a remote sensing driven permafrost carbon modelling framework, which mainly contains two modules: a 1-D soil thermal model and a terrestrial carbon flux model. 
-This modelling framework is designed to simulate soil temperature and carbon decomposition dynamics in the northern permafrost region at intermediate scales. It is mainly
-driven by remote sensing data. STM-C is partly built on the original pan-Arctic permafrost hydrology model (PWBM). 
+STM-C is a remote sensing driven permafrost carbon modelling framework, which mainly contains two modules: a 1-D soil thermal model and a terrestrial carbon flux model. This modelling framework is designed to simulate soil temperature and carbon decomposition dynamics in the northern permafrost region at intermediate scales. It is mainly driven by remote sensing data. STM-C is partly built on the original pan-Arctic permafrost hydrology model (PWBM). 
 
  1. Compiling the model in Linux
    gfortran -g *.f -o *.exe -mcmodel=medium
